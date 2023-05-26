@@ -1,0 +1,18 @@
+{
+    "name": "svg-generator",
+    "version": "1.0.0",
+    "description": "An app that allows the user to generate a SVG logo with up to 3 letters.",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "test": "jest"
+    },
+    "dependencies": {
+      "fs": "^0.0.1-security",
+      "inquirer": "<=8.0.0",
+      "inquirer-maxlength-input-prompt": "^1.0.2"
+    },
+    "devDependencies": {
+      "jest": "^29.5.0"
+    }
+  }
